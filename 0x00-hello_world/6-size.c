@@ -3,7 +3,7 @@
 /**
  * main : this print out size of all types
  *
- * Return: Alwasys 0
+ * Return: Always 0
  */
 
 int main(void)
@@ -13,4 +13,5 @@ int main(void)
 	printf("Size of a long int: %d bytes(s)\n", sizeof(long));
 	printf("Size of long long int: %d bytes(s)\n", sizeof(long long));
 	printf("Size of float: %d bytes(s)\n", sizeof(float));
+	return (0);
 }
