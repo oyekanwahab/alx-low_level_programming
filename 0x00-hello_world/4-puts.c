@@ -1,9 +1,11 @@
 #include <stdio.h>
 /**
- * This is the main function of the program.
- * It demonstrates printing a message to the console.
+ * main - Prints "Programming is like building a multilingual
+ *                puzzle, followed by a new line.
+ *
+ * Return: Always 0.
  */
-int main(void)
+int main(void)/* main function */
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
