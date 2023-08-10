@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main : this print out size of all types
+ * main - this print out size of all types
  *
  * Return: Always 0
  */
