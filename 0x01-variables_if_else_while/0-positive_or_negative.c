@@ -7,7 +7,7 @@
 /**
  * main - print if positive or negative
  *
- * return - 0 is reunt if sucessful
+ * Return: 0
  *
  */
 int main(void)
