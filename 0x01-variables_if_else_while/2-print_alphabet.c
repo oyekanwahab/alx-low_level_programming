@@ -1,10 +1,11 @@
 #include <stdio.h>
 
-/*
- * main - print all alphabetic character using for loop 
- * 	This retirate all the alphabet
+/**
+ * main - Print using for loop.
+ * Description:	'This retirate all the alphabet'
  *
- * Result: 0 if sucessfu
+ * Return: 0 if sucess
+ *
  */
 
 int main(void)
