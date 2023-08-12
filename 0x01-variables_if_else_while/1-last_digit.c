@@ -16,7 +16,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	n % 10 = m
+	n % 10 = m;
 	if (m > 5)
 		print("Last digit of %d is %d and is greater that 5\n", n, m);
 	else if (m == 0)
