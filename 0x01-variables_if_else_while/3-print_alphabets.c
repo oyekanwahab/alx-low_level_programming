@@ -10,10 +10,13 @@
 
 int main(void)
 {
-	char ch;
+	char ch_l;
+	chat ch_U
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-		putchar(ch);
+	for (ch_l = 'a'; ch_l <= 'z'; ch_l++)
+		putchar(ch_l);
+	for (ch_U = 'A'; ch_U <= 'Z'; ch_U++)
+		puthcar(ch_U);
 	putchar('\n');
 	return (0);
 }
