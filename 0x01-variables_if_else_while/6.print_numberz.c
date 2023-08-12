@@ -13,6 +13,7 @@ int main(void)
 	int i;
 
 	for (int i = 0; i <= 9; i++)
-		putchar(i);
+		putchar("%d", i);
+	putchar("\n")
 	return (0);
 }
