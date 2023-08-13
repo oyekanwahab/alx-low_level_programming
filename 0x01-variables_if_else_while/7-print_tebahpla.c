@@ -3,7 +3,7 @@
 /**
  *main - print lowercase
  *
- * Result: 0 if sucessful
+ *Return: 0 if sucessful
  */
 
 int main(void)
