@@ -2,7 +2,7 @@
 
 /*
  * main -  print putchar
- *
+ * Description: print using protype
  * Return: 0 if sucessful
  */
 
