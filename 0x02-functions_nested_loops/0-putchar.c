@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
- * main -  print putchar
+ * main -  prints _putchar, followed by a new line
  * Description: print using protype
  * Return: 0 if sucessful
  */
