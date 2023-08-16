@@ -13,15 +13,15 @@ void print_alhabet_x10(void);
 	int i;
 
 	i = 0;
-	while (i <= 10);
+
+	while (i < 10)
 	{
-		
 		c = 'a';
-		while (a <= 'z');
+		while (a <= 'z')
 		{
-			
-			_putchar('a')
+			_putchar('a');
+			c++;
 		}
 	}
-	return (0)
+	return (0);
 }
