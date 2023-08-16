@@ -2,6 +2,7 @@
 
 /**
  * main - test function that prints if integer is positive or negative
+ * Description: 'Check for positive or negative number'
  * Return: 0
  */
 
