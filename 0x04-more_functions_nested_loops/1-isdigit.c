@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * _isupper - check for lower letter
- * Description: check for lower letter using function isupper
+ * _isdigit - check for number
+ * Description: check for number  letter using function isnumber
  * @c: letter to be checked
- * Return: 0 if is lower and 1 if is it not
+ * Return: 0 if is numebr  and 1 if is it not
  */
 
-int _isupper(int c)
+int _isdigit(int c)
 {
-	if (c >= 'A' && c <= 'Z')
+	if (c >= '0' && c <= '9')
 	{
 		return (1);
 	}
