@@ -4,7 +4,7 @@
  * print_line - print line
  * Description: 'print # multiple times'
  * @n: integer to print #
- * return: no return 
+ * return: no return
  */
 
 void print_line(int n)
