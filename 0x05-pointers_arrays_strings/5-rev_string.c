@@ -12,16 +12,16 @@ void rev_string(char *s)
 {
 	int c = 0;
 	int i;
+	char *l = s;
 
 	while (*s != '\0')
 	{
 		c++;
 		s++;
 	}
-
-	
 	for (i = c - 1; i >= 0; i--)
 	{
-		printf("%c", s[i]);
+		printf("%c", l[i]);
 	}
+	putchar('\n')
 }
