@@ -14,12 +14,12 @@ void _puts(char *str)
 	{
 		_putchar('\n');
 	}
-	else 
+	else
 	{
 		while (*str != '\0')
 		{
 			_putchar(*str);
-			str ++;
+			str++;
 		}
 		_putchar('\n');
 	}
