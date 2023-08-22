@@ -23,5 +23,5 @@ void rev_string(char *s)
 	{
 		printf("%c", l[i]);
 	}
-	putchar('\n')
+	putchar('\n');
 }
