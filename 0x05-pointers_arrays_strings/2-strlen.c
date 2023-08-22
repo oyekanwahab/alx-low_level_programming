@@ -3,8 +3,8 @@
 /**
  * _strlen - len of a str
  * Description: 'print out lenght of string'
- * @s: String to print out lenght 
- * * Return: Always 0
+ * @s: String to print out lenght
+ * Return: Always 0
  *
  */
 
@@ -17,7 +17,7 @@ int _strlen(char *s)
 		l++;
 		s++;
 	}
-	return l;
+	return (l);
 
 
 }
