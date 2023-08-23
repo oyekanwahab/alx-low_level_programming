@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts_half - print out word in half a string 
+ * puts_half - print out word in half a string
  * Description: 'print out of every other string'
  * @str: String to print out lenght
  * Return: Always 0
@@ -32,8 +32,8 @@ void puts_half(char *str)
 	}
 	else
 	{
-		half = (num -1) / 2;
-		for (i =half; i <= num; i++)
+		half = (num - 1) / 2;
+		for (i = half; i <= num; i++)
 		{
 			_putchar(*str);
 			str++;
