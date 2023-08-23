@@ -20,12 +20,12 @@ void puts_half(char *str)
 		num++;
 		l++;
 	}
-	if (num % 2 == 0)
+	if (num % 2 == 1)
 	{
-		half = (num + 1) / 2;
+		half = num / 2;
 		for (i = half; i <= num; i++)
 		{
-			_putchar(*str);
+			_putchar(str[i]);
 			str++;
 		}
 		_putchar('\n');
@@ -35,7 +35,7 @@ void puts_half(char *str)
 		half = (num - 1) / 2;
 		for (i = half; i <= num; i++)
 		{
-			_putchar(*str);
+			_putchar(str[i]);
 			str++;
 		}
 		_putchar('\n');
