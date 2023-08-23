@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * puts - print out word in reverse
+ * puts2 - print out word in reverse
  * Description: 'print out of every other string'
  * @str: String to print out lenght
  * Return: Always 0
