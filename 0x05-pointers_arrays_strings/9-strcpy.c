@@ -5,7 +5,7 @@
  * Description: 'print out of every other string'
  * @dest: arar to print from
  * @src: number of the array to print
- * Return: no return 
+ * Return: no return
  *
  */
 

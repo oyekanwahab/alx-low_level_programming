@@ -4,7 +4,7 @@
  * _atoi - string to number (int)
  * Description: 'string to int'
  * @s: string
- * Return: no return 
+ * Return: no return
  *
  */
 
