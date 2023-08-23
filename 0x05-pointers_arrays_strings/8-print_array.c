@@ -1,44 +1,23 @@
 #include "main.h"
 
 /**
- * print_array i- print out word in half a string
+ * print_array - print out word in half a string
  * Description: 'print out of every other string'
- * @str: String to print out lenght
- * Return: Always 0
+ * @a: arar to print from
+ * @n: number of the array to print
+ * Return: no return 
  *
  */
 
-void puts_half(char *str)
+void print_array(int *a, int n)
 {
-	char *l = str;
-	int num = 0;
-	int half;
-	int i;
+	int i = 0;
 
-	while (*l != '\0')
+	for (; i < n; i++)
 	{
-		num++;
-		l++;
+		printf("%d", *(a + i));
+		if (i != (n - 1))
+			printf(", ");
 	}
-	if (num % 2 == 0)
-	{
-		half = (num + 1) / 2;
-		for (i = half; i <= num; i++)
-		{
-			_putchar(*str);
-			str++;
-		}
-		_putchar('\n');
-	}
-	else
-	{
-		half = (num - 1) / 2;
-		for (i = half; i <= num; i++)
-		{
-			_putchar(*str);
-			str++;
-		}
-		_putchar('\n');
-	}
+	printf("\n");
 }
-
