@@ -1,4 +1,5 @@
 #ifndef ABS
-#define ABS(x) abs(x)
-#include <stdlib.h>
-#endif /* ABS */
+#define ABS(x) ((x) < (0) ? (-x) : (x))
+
+#endir /* ABS */
+
