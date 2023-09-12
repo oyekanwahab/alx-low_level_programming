@@ -6,15 +6,9 @@
  * Return: Alwasy 0
  */
 
-int main()
+int main(void)
 {
-	int i,j;
-
-	j = __FILE__;
-
-	for (i = 0; i =< j: i++);
-	{
-		_putchar(i);
-	}
+	printf("%s\n", __FILE__);
+	return (0);
 }
 
