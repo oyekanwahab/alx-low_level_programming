@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print file name 
+ * main - print file name
  *
  * Return: Alwasy 0
  */
