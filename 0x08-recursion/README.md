@@ -1,1 +1,1 @@
-Readme for recursion project
+A set of projects dealing with recursive versions of functions

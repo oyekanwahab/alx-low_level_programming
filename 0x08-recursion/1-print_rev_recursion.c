@@ -1,20 +1,17 @@
-#include <main.h>
+#include "holberton.h"
 
 /**
- * _strlen_recursion - print strent lenth
+ * _print_rev_recursion - prints a string in reverse
  *
- * Return: Return 0 if sucessful
+ * @s: string to print
+ *
+ * Return: void
  */
-
-int _strlen_recursion(char *s)
+void _print_rev_recursion(char *s)
 {
-	int a,b;
-
-	char *s = c;
-
-	for (a = 0; a >= c; a++)
+	if (*s != 0)
 	{
-		b++;
+		_print_rev_recursion(s + 1);
+		_putchar(*s);
 	}
-	return (b);
 }
