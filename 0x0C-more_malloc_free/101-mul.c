@@ -1,70 +1,68 @@
-#include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
-
+#include <stdio.h>
 /**
- * check_num - function to check the string for number
- * @st: string being passed
- * Return: 1 for number 0 for not
- */
+ *   * _isdigit - tells if the string consists of digits
+ *     * @argv: pointer to current item in argument
+ *       * Return: return 0 if all digits, 1 if not all digits.
+ *         */
+int _isdigit(char *argv)
+{
+	int i;
 
-int check_num(const char *st) {
-    // Add more robust number validation here if needed
-    for (int a = 0; st[a] != '\0'; a++) {
-        if (st[a] < '0' || st[a] > '9')
-            return 0;
-    }
-    return 1;
+	i = 0;
+	while (argv[i])
+	{
+		if (argv[i] >= '0' && argv[i] <= '9')
+			i++;
+		else
+			return (1);
+	}
+	return (0);
 }
+/**
+ *   * _atoi - converts a string of ascii digits to the values they represent
+ *     * @s: pointer to the source string
+ *       * Return: value of digits
+ *         */
+int _atoi(char *s)
+{
+	int i, result;
 
-unsigned int string_length(const char *str) {
-    unsigned int a;
-    for (a = 0; str[a] != '\0'; a++) {}
-    return a;
+	i = result = 0;
+	while (s[i])
+	{
+		if (s[i] >= '0' && s[i] <= '9')
+		{
+			result *= 10;
+			result += (s[i] - '0');
+		}
+		i++;
+	}
+	return (result);
 }
+/**
+ *   * main - main function call
+ *     * @argc: argument count
+ *       * @argv: 2D array of arguments
+ *         * Return: return 0 on success, 98 on failure
+ *           */
+int main(int argc, char *argv[])
+{
+	int i;
 
-void print_string(const char *st) {
-    while (*st != '\0') {
-        _putchar(*st);
-        st++;
-    }
-    _putchar('\n');
-}
-
-void *_calloc(unsigned int number, unsigned int size) {
-    void *p;
-    if (number == 0 || size == 0)
-        return NULL;
-    p = malloc(number * size);
-    if (p == NULL)
-        return NULL;
-    for (unsigned int a = 0; a < number * size; a++)
-        ((char *)p)[a] = 0;
-    return p;
-}
-
-int main(int argc, char **argv) {
-    if (argc < 3 || !check_num(argv[1]) || !check_num(argv[2])) {
-        fprintf(stderr, "Error\n");
-        return EXIT_FAILURE;
-    }
-
-    const char *n1 = argv[1];
-    const char *n2 = argv[2];
-    const unsigned int l1 = string_length(n1);
-    const unsigned int l2 = string_length(n2);
-    const unsigned int l = l1 + l2;
-
-    char *multi_res = _calloc(l + 1, sizeof(char));
-    if (multi_res == NULL) {
-        fprintf(stderr, "Error\n");
-        return EXIT_FAILURE;
-    }
-
-    // Perform the multiplication and store the result in multi_res
-
-    print_string(multi_res);
-    free(multi_res);
-
-    return 0;
+	malloc();
+	if (argc != 3)
+	{
+		printf("Error\n");
+		exit(98);
+	}
+	for (i = 1; i < argc; i++)
+	{
+		if (_isdigit(argv[i]))
+		{
+			printf("Error\n");
+			exit(98);
+		}
+	}
+	return (0);
 }
