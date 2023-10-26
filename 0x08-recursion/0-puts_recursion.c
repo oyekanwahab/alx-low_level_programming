@@ -3,7 +3,7 @@
 
 /**
  * _puts_recursion - for print out letter
- * *s: string
+ * @s: string
  * Return: 1 on sucess
  *
  */
